@@ -79,20 +79,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        b00 = (Button) findViewById(R.id.b00);
-        b01 = (Button) findViewById(R.id.b01);
-        b02 = (Button) findViewById(R.id.b02);
+        b00 = findViewById(R.id.b00);
+        b01 = findViewById(R.id.b01);
+        b02 = findViewById(R.id.b02);
 
-        b10 = (Button) findViewById(R.id.b10);
-        b11 = (Button) findViewById(R.id.b11);
-        b12 = (Button) findViewById(R.id.b12);
+        b10 = findViewById(R.id.b10);
+        b11 = findViewById(R.id.b11);
+        b12 = findViewById(R.id.b12);
 
-        b20 = (Button) findViewById(R.id.b20);
-        b21 = (Button) findViewById(R.id.b21);
-        b22 = (Button) findViewById(R.id.b22);
+        b20 = findViewById(R.id.b20);
+        b21 = findViewById(R.id.b21);
+        b22 = findViewById(R.id.b22);
 
-        bReset = (Button) findViewById(R.id.bReset);
-        tvInfo = (TextView) findViewById(R.id.tvInfo);
+        bReset = findViewById(R.id.bReset);
+        tvInfo = findViewById(R.id.tvInfo);
 
         bReset.setOnClickListener(this);
 
