@@ -5,80 +5,77 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GridFive"
-    android:gravity="top">
+    android:gravity="top"
+    android:background="@mipmap/background">
+
     <TableLayout
         android:id="@+id/glGameBoard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/tvInfo"
-        android:rowCount="5"
+        android:layout_marginBottom="95dp"
         android:columnCount="5"
         android:padding="8dp"
-        >
+        android:rowCount="5">
 
         <!--Row 1-->
         <TableRow>
 
             <Button
                 android:id="@+id/b00"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b01"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b02"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b03"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
             <Button
                 android:id="@+id/b04"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
-
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
 
         </TableRow>
@@ -88,62 +85,58 @@
 
             <Button
                 android:id="@+id/b10"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b11"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b12"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b13"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
             <Button
                 android:id="@+id/b14"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
         </TableRow>
 
@@ -152,62 +145,58 @@
 
             <Button
                 android:id="@+id/b20"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b21"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b22"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b23"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
             <Button
                 android:id="@+id/b24"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
 
         </TableRow>
@@ -216,62 +205,58 @@
 
             <Button
                 android:id="@+id/b30"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b31"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b32"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b33"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
             <Button
                 android:id="@+id/b34"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
 
         </TableRow>
@@ -280,62 +265,58 @@
 
             <Button
                 android:id="@+id/b40"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b41"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b42"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
             <Button
                 android:id="@+id/b43"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
+
             <Button
                 android:id="@+id/b44"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:textSize="54sp"
-                android:textColor="#FFFFFF"
+                android:layout_margin="2dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:layout_margin="2dp"
-                style="@style/Widget.AppCompat.Button"
-                />
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
 
         </TableRow>
@@ -347,11 +328,12 @@
         android:id="@+id/tvInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#424242"
-        android:textSize="18sp"
         android:layout_centerHorizontal="true"
         android:layout_margin="16dp"
         android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:fontFamily="@"
         />
 
     <!--Button to reset game board-->

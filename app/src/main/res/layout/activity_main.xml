@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@mipmap/background">
 
     <TableLayout
         android:id="@+id/glGameBoard"
@@ -148,7 +149,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#424242"
-        android:textSize="18sp"
+        android:textSize="36sp"
         android:layout_centerHorizontal="true"
         android:layout_margin="16dp"
         android:padding="8dp"
