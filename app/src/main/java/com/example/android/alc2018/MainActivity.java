@@ -8,48 +8,10 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-/*
- Created by rajat4914 on 04/01/17.
- */
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    /*
-    DESCRIPTION OF VARIABLES
-
-    TAG ---------> Used for log debugging
-    PLAYER_X ----> Variable to identify player turn
-    TURN_COUNT --> Variable to keep count of number of turns
-    b00 - b22 ---> Button for each 3x3 box
-    tvInfo ------> Information regarding game status
-    boardStatus -> 2-d array to identify board status
-        -1 means, No one has played on that box yet
-        0 means, Player 0 has played on that box
-        1 means, Player X has played on that box
-    */
-
-    /*
-    DESCRIPTION OF METHODS
-
-    onClick --------> Called whenever any box or reset button is clicked.
-        This method places either X or 0 according to player turn
-        and updates other information
-
-    checkWinner ----> This method checks the board status and identifies the winner
-        It checks for all the 3 rows, 3 columns and 2 diagonals
-
-    resetBoard -----> This method is called whenever reset button is pressed.
-        updates everything to initial values of game
-
-    enableAllBoxes -> This method can either enable or disable all boxes
-
-    setInfo --------> This method updates the string in TextView
-
-    result ---------> This method works whenever a player wins or game draws
-
-    initializeBoardStatus -> Method which set the value of integer array to -1
-
-    */
 
     private final static String TAG = MainActivity.class.getSimpleName();
     boolean PLAYER_X = true;

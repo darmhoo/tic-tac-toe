@@ -1,6 +1,5 @@
 package com.example.android.alc2018;
 
-import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,8 +13,6 @@ import android.widget.Toast;
 public class FirstScreen extends AppCompatActivity {
     RadioGroup radioButtonGroup;
     RadioButton radioButton;
-    RadioButton radthree;
-    RadioButton radfive;
 
 
     Button button;
@@ -29,14 +26,6 @@ public class FirstScreen extends AppCompatActivity {
         radioButtonGroup = findViewById(R.id.radioGroup);
 
         button = findViewById(R.id.button);
-      //  radthree = findViewById(R.id.radthree);
-      //  int rad3id = radthree.getId();
-
-    //    radfive = findViewById(R.id.radfive);
-     //   int rad5id = radfive.getId();
-
-        //3 Grid
-
 
         button.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View v){
