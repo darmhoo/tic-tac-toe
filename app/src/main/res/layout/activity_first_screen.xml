@@ -44,7 +44,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2">
 
         <RadioButton
-            android:id="@+id/radthree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -54,7 +53,6 @@
             app:fontFamily="@font/almendra_sc" />
 
         <RadioButton
-            android:id="@+id/radfive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

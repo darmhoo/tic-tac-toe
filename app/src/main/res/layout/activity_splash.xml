@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Splash"
     android:background="@mipmap/background"
-    >
+    tools:context=".Splash">
+
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -18,6 +17,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="Tic Tac Toe"
+        android:textAlignment="center"
 
         android:textColor="@android:color/white"
         android:textSize="100sp"
